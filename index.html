@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>PORTFOLIO || CUURRICUM VITAE</title>
+         <link rel="icon" type="image/png" href="./img/profile1.png">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -413,34 +414,81 @@
 
                 <!-- Contact Start -->
                 <div class="container bg-white py-5" id="contact">
-                    <div class="row px-3">
-                        <div class="col-12">
-                            <h2 class="title position-relative pb-2 mb-4">Contact Me</h2>
-                        </div>
-                        <div class="col-12">
-                            <h4 class="mb-4">For business and further important discussion. Please message me.</h4>
-                            <form>
-                                <div class="form-row mb-3">
-                                    <div class="control-group col-sm-6">
-                                        <input type="text" class="form-control p-4" placeholder="Your Name" />
-                                    </div>
-                                    <div class="control-group col-sm-6">
-                                        <input type="email" class="form-control p-4" placeholder="Your Email" />
-                                    </div>
-                                </div>
-                                <div class="control-group mb-3">
-                                    <input type="text" class="form-control p-4" placeholder="Subject" />
-                                </div>
-                                <div class="control-group mb-3">
-                                    <textarea class="form-control py-3 px-4" rows="5" placeholder="Message"></textarea>
-                                </div>
-                                <div>
-                                    <button class="btn btn-primary py-3 px-4" type="submit">Send Message</button>
-                                </div>
-                            </form>
-                        </div>
+    <div class="row px-3">
+        <div class="col-12">
+            <h2 class="title position-relative pb-2 mb-4">Contact Me</h2>
+        </div>
+
+        <div class="col-12">
+            <h4 class="mb-4">
+                For business and further important discussion. Please message me.
+            </h4>
+
+            <!-- FORM START -->
+            <form action="https://formsubmit.co/godstimeekpa56@gmail.com" method="POST">
+
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Redirect after submit -->
+                <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
+
+                <div class="form-row mb-3">
+
+                    <div class="control-group col-sm-6">
+                        <input
+                            type="text"
+                            name="name"
+                            class="form-control p-4"
+                            placeholder="Your Name"
+                            required
+                        />
                     </div>
+
+                    <div class="control-group col-sm-6">
+                        <input
+                            type="email"
+                            name="email"
+                            class="form-control p-4"
+                            placeholder="Your Email"
+                            required
+                        />
+                    </div>
+
                 </div>
+
+                <div class="control-group mb-3">
+                    <input
+                        type="text"
+                        name="subject"
+                        class="form-control p-4"
+                        placeholder="Subject"
+                        required
+                    />
+                </div>
+
+                <div class="control-group mb-3">
+                    <textarea
+                        name="message"
+                        class="form-control py-3 px-4"
+                        rows="5"
+                        placeholder="Message"
+                        required
+                    ></textarea>
+                </div>
+
+                <div>
+                    <button class="btn btn-primary py-3 px-4" type="submit">
+                        Send Message
+                    </button>
+                </div>
+
+            </form>
+            <!-- FORM END -->
+
+        </div>
+    </div>
+</div>
                 <!-- Contact End -->
                 
                 
